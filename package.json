@@ -1,0 +1,25 @@
+{
+  "name": "astridorganics-website",
+  "version": "1.0.0",
+  "description": "AstridOrganics Glycoshield Drops - Website oficial",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server . -p 3000",
+    "build": "echo 'Build completed - static site ready'",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": ["astridorganics", "glycoshield", "health", "supplements", "website"],
+  "author": "AstridOrganics",
+  "license": "MIT",
+  "homepage": "https://github.com/heroncosmo/ad",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heroncosmo/ad.git"
+  },
+  "devDependencies": {
+    "playwright": "^1.55.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

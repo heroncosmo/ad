@@ -1,0 +1,73 @@
+# Dependências
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Arquivos de ambiente e configuração sensível
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Arquivos temporários
+*.tmp
+*.temp
+.cache/
+.temp/
+
+# Arquivos de sistema
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Arquivos de backup
+*.bak
+*.backup
+*~
+
+# Arquivos de IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Arquivos de build e dist
+dist/
+build/
+out/
+
+# Arquivos específicos do projeto
+*.ps1
+tools/
+AstridOrganics\ Glycoshield\ Drops_files/
+
+# Arquivos de mapeamento e logs de download (específicos do projeto)
+assets/images/_mapping*.json
+assets/images/_download_log*.json
+assets/images/_download_report.md
+
+# Playwright
+test-results/
+playwright-report/
+playwright/.cache/
